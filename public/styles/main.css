@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.floor {
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-content: center;
+}
+
+.tile {
+  border: solid rgb(156, 154, 154) 1px;
+  background-color: rgb(255, 255, 255);
+  height: 198px;
+  width: 198px;
+}
